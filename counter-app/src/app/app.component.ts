@@ -12,6 +12,9 @@ export class AppComponent implements OnInit {
   title = 'counter-app';
   counter = 0;
   results = [];
+  model = {
+    left : true
+  }
 
   constructor(private store: Store<any>) {}
   ngOnInit() {

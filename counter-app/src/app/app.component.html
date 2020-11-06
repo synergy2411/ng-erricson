@@ -25,6 +25,17 @@
     </div>
   </div>
   <br>
+  <p>
+    <ngb-alert [dismissible]="false">
+      <strong>Warning!</strong> Better check yourself, you're not looking too good.
+    </ngb-alert>
+  </p>
 
+  <label class="btn-primary" ngbButtonLabel>
+    <input type="checkbox" ngbButton [(ngModel)]="model.left"> Left (pre-checked)
+  </label>
+
+  <ngb-datepicker #d></ngb-datepicker>
+  <input type="text" ngbDatepicker #d="ngbDatepicker"/>
 
 </div>
