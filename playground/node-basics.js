@@ -180,4 +180,45 @@
 
 // Module
 // Type System
-// Decorator / Annotation
+
+// - any
+// - void
+// - enum
+// - string
+// - number
+// - boolean
+// - array*
+// - object*
+// - date
+// - function*
+// - Custom/Complex type
+
+
+// Decorator / Annotation - 
+// - simple function invocation; supplies metadata to the host element
+// 4 levels (class, property, method, parameter)
+
+// -ngModule
+// -Component
+// -Input
+// -Output
+// -HostBinding
+// -HostListener
+// -Directive
+// -Pipe
+// -Injectable
+
+
+// const fn = function(){
+//     console.log("Hello World");
+// }
+
+// fn();
+
+// let user = {
+//     name : "Foo",
+//     sayHi : () => {
+//         return "Hi " + this.name;    }
+// }
+
+
